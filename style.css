@@ -1,0 +1,112 @@
+/*html{
+    background-image: url("img/background.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}*/
+
+/*mis en forme de la vidéo en arrière plan*/
+.video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* La vidéo prend 100% de la largeur de la fenêtre du navigateur */
+    height: 100vh; /* La vidéo prend 100% de la hauteur de la fenêtre du navigateur */
+    z-index: -1;
+    object-fit: cover; /* Pour que la vidéo remplisse la zone sans déformer */
+}
+
+
+h1{
+    font-family: "Turret Road", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:white;
+    font-size: 3rem;
+    text-shadow: 3px 3px 2px rgb(13, 71, 54);
+    transform: translateY(2px);
+}
+
+h1:hover{
+    transform: translateY(-2px);
+    transition: all 0.2s ease;
+    font-size: 3.2rem;
+    text-decoration: underline overline #022e25;
+}
+
+#avertissement{
+    color:rgb(113, 19, 19);
+    font-size: 2em;
+    text-shadow:1px 1px 2px white;
+    margin-bottom: 2%;
+}
+
+#nomJoueurs {
+    width:30%;
+    margin:1% 2%;
+}
+
+#buttonEquipeAleatoire{
+    margin:1% 2%;
+}
+
+#joueur1,#joueur2,#joueur3,#joueur4,#joueur5,#joueur6,#joueur7,#joueur8,#joueur9,#joueur10,
+#joueur11,#joueur12,#joueur13,#joueur14,#joueur15,#joueur16,#joueur17,#joueur18,#joueur19,#joueur20,#buttonEquipeAleatoire {
+    margin-right:2%;
+    margin-bottom:1%;
+}
+
+#equipe{
+    margin-top:-2.5%;
+    margin-right:5%;
+    border-radius:10px;
+    padding:1%;
+    background-color: rgba(255, 255, 255, 0.475);
+    width:60%;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.attaquant,.defenseur{
+    width: 10%;
+    margin-left:10%
+}
+
+th,td{
+    border:2px rgb(158, 21, 21) solid;
+    border-collapse: collapse;  
+}
+
+td{
+    width:12.5%
+}
+
+table{
+    margin-top:3%;
+    border-collapse: collapse;
+    color:black;
+    padding-right:3%;
+    width:100%
+}
+
+label{
+    margin-left:3%;
+    color:white;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px rgb(2, 50, 2);
+}
+
+.flex{
+    display: flex;
+}
+
+img{
+    width:60%;
+    text-align: center;
+    margin-left:20%
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}

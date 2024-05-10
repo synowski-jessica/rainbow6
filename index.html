@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <title>Rainbow 6 siege</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="containeur">
+        <h1>Rainbow 6 siege</h1>
+        <!--video d'arrière plan de la page acceuil-->
+        <video autoplay loop muted plays-inline class="video">
+            <source src="video/nokk-tom-clancys-rainbow-six-siege-moewalls-com.mp4" type="video/mp4">
+        </video>
+        <div id="avertissement"></div>
+        <label for="nombreJoueurs">Nombre de joueurs:</label>
+        <input type="number" id="nombreJoueurs" name="nombreJoueurs" min="2" max="100" />
+        <button id="buttonNbJoueur">Valider</button>
+        <div class="flex">
+            <div>
+                <div id="nomJoueurs"></div>
+                <button id="buttonEquipeAleatoire" style="display:none;">Générer équipe aléatoire</button>
+            </div>
+            <div id="equipe" style="display:none;"></div>
+        </div>
+    </div>
+    
+
+    
+</body>
+</html>
