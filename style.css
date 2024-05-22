@@ -44,6 +44,7 @@ h1:hover{
 #nomJoueurs {
     width:30%;
     margin:1% 2%;
+    
 }
 
 #buttonEquipeAleatoire{
@@ -52,8 +53,9 @@ h1:hover{
 
 #joueur1,#joueur2,#joueur3,#joueur4,#joueur5,#joueur6,#joueur7,#joueur8,#joueur9,#joueur10,
 #joueur11,#joueur12,#joueur13,#joueur14,#joueur15,#joueur16,#joueur17,#joueur18,#joueur19,#joueur20,#buttonEquipeAleatoire {
-    margin-right:2%;
-    margin-bottom:1%;
+    margin-bottom: 1%;
+    min-width: 47%;
+    flex-grow: 1;
 }
 
 #equipe{

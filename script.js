@@ -247,36 +247,28 @@ function attribuerDefenseurJoueur(array) {
       .querySelector("#imgDefenseur1")
       .setAttribute(
         "src",
-        `img/defenseur/${arrayDefenseur[
-          0 + (i % 2 != 0 ? 4 : 0)
-        ].toLowerCase()}.png`
+        `img/defenseur/${arrayDefenseur[0 + (i % 2 != 0 ? 4 : 0)]}.png`
       );
 
     equipe
       .querySelector("#imgDefenseur2")
       .setAttribute(
         "src",
-        `img/defenseur/${arrayDefenseur[
-          1 + (i % 2 != 0 ? 4 : 0)
-        ].toLowerCase()}.png`
+        `img/defenseur/${arrayDefenseur[1 + (i % 2 != 0 ? 4 : 0)]}.png`
       );
 
     equipe
       .querySelector("#imgDefenseur3")
       .setAttribute(
         "src",
-        `img/defenseur/${arrayDefenseur[
-          2 + (i % 2 != 0 ? 4 : 0)
-        ].toLowerCase()}.png`
+        `img/defenseur/${arrayDefenseur[2 + (i % 2 != 0 ? 4 : 0)]}.png`
       );
 
     equipe
       .querySelector("#imgDefenseur4")
       .setAttribute(
         "src",
-        `img/defenseur/${arrayDefenseur[
-          3 + (i % 2 != 0 ? 4 : 0)
-        ].toLowerCase()}.png`
+        `img/defenseur/${arrayDefenseur[3 + (i % 2 != 0 ? 4 : 0)]}.png`
       );
   }
 }
